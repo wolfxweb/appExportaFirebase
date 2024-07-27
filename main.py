@@ -1,8 +1,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QAction, QMenuBar, QStackedWidget, QWidget, QVBoxLayout, QPushButton
-from appExportaFirebase.page_licencas import Page
-from appExportaFirebase.page_dados_basicos import DadosBasicos  # Importa a nova página
-from appExportaFirebase.firebase_service import FirebaseService
+from page_licencas import Page
+from page_dados_basicos import DadosBasicos  # Importa a nova página
+from firebase_service import FirebaseService
 
 class MainWindow(QMainWindow):
     def __init__(self, firebase_service):

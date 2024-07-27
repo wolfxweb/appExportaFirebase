@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (
     QPushButton, QFileDialog, QMessageBox, QLineEdit, QHBoxLayout, QFormLayout, QLabel
 )
 from PyQt5.QtCore import Qt
-from appExportaFirebase.firebase_service import FirebaseService  # Certifique-se de que isso está correto
+from firebase_service import FirebaseService  # Certifique-se de que isso está correto
 
 class Page(QWidget):
     def __init__(self, firebase_service):
